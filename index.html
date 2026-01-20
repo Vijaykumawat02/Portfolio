@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Kumawat - Penetration Tester</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <meta name="description" content="Professional portfolio of Vijay Kumawat, an experienced Penetration Tester and Red Team Intern specializing in Web, API, AD, and Network Pentesting.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__content">
+                <div class="nav__logo">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Vijay Kumawat</span>
+                </div>
+                <ul class="nav__menu">
+                    <li><a href="#home" class="nav__link">Home</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#experience" class="nav__link">Experience</a></li>
+                    <li><a href="#projects" class="nav__link">Projects</a></li>
+                    <li><a href="#skills" class="nav__link">Skills</a></li>
+                    <li><a href="#certifications" class="nav__link">Certifications</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <button class="nav__toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="column left">
+                    <img src="profile.jpeg" alt="My Picture" class="hero__avatar">
+                </div>
+                <!-- <div class="hero__avatar">
+                    <i class="fas fa-user-secret"></i>
+                </div> -->
+                <h1 class="hero__name">Vijay Kumawat</h1>
+                <h2 class="hero__title">Penetration Tester | Ethical Hacker</h2>
+                <p class="hero__tagline">Experienced in Web, API, Active Directory, and Network Pentesting with hands-on internships and security research</p>
+                <div class="hero__location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Jaipur, Rajasthan, India</span>
+                </div>
+                <div class="hero__actions">
+                    <a href="#projects" class="btn btn--primary">View Projects</a>
+                    <a href="Vijay_Kumawat_Resume.pdf" class="btn btn--outline" id="downloadResume">Download Resume</a>
+                    <!-- <button class="btn btn--outline" id="downloadResume">Download Resume</button> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section__title">About Me</h2>
+            <div class="about__content">
+                <div class="about__text">
+                    <p>Experienced Penetration Tester with a bachelor's degree in computer science. Completed several courses on web application Pentesting, Active Directory Pentesting, API Pentesting and Network Pentesting. Eager to Learn in-depth and contribute to the security of organizations.</p>
+                    <p>My expertise spans across various domains of cybersecurity, with a particular focus on identifying vulnerabilities and strengthening organizational security posture through comprehensive security assessments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section__title">Experience</h2>
+            <div class="experience__timeline">
+                <div class="experience__item">
+                    <div class="experience__marker"></div>
+                    <div class="experience__content">
+                        <div class="experience__header">
+                            <h3 class="experience__title">Red Team Intern</h3>
+                            <span class="experience__company">CyberSapiens</span>
+                            <span class="experience__duration">July 2024 – November 2024</span>
+                        </div>
+                        <ul class="experience__responsibilities">
+                            <li>Performed Bug hunting, Report writing</li>
+                            <li>Completed CEH V12 and Bug hunting essentials Trainings</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="experience__item">
+                    <div class="experience__marker"></div>
+                    <div class="experience__content">
+                        <div class="experience__header">
+                            <h3 class="experience__title">IT Research Intern</h3>
+                            <span class="experience__company">Contenttopper</span>
+                            <span class="experience__duration">September 2023 – November 2023</span>
+                        </div>
+                        <ul class="experience__responsibilities">
+                            <li>Security research: Web App Security, Active Directory, API Hacking, Network Pen Testing</li>
+                            <li>Used Google Dorking, PortSwigger, TryHackMe</li>
+                            <li>Documented findings and recommendations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section__title">Projects</h2>
+            <div class="projects__grid">
+                <div class="project-card">
+                    <div class="project-card__header">
+                        <i class="fas fa-network-wired"></i>
+                        <span class="project-card__date">September 2023</span>
+                    </div>
+                    <h3 class="project-card__title">Port Scanner</h3>
+                    <p class="project-card__description">Multithreaded Python 3 port scanner for network security assessment</p>
+                    <div class="project-card__features">
+                        <span class="feature-tag">Multithreaded scanning</span>
+                        <span class="feature-tag">Custom port ranges</span>
+                    </div>
+                    <div class="project-card__tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Threading</span>
+                        <span class="tech-tag">Sockets</span>
+                    </div>
+                    <div class="project-card__actions">
+                        <!-- <button class="btn btn--sm btn--outline" href="https://github.com/Vijaykumawat02/Projects/blob/main/scanner.py">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </button>
+                        <button class="btn btn--sm btn--primary">
+                            <i class="fas fa-play"></i>
+                            Demo
+                        </button> -->
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card__header">
+                        <i class="fas fa-sitemap"></i>
+                        <span class="project-card__date">September 2023</span>
+                    </div>
+                    <h3 class="project-card__title">Subdomain Scanner</h3>
+                    <p class="project-card__description">Python tool to efficiently identify and list subdomains for reconnaissance</p>
+                    <div class="project-card__features">
+                        <span class="feature-tag">DNS enumeration</span>
+                        <span class="feature-tag">Wordlist-based discovery</span>
+                        <span class="feature-tag">Concurrent processing</span>
+                    </div>
+                    <div class="project-card__tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">DNS Libraries</span>
+                        <span class="tech-tag">Wordlists</span>
+                    </div>
+                    <div class="project-card__actions">
+                        <!-- <button class="btn btn--sm btn--outline">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </button>
+                        <button class="btn btn--sm btn--primary">
+                            <i class="fas fa-play"></i>
+                            Demo
+                        </button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section__title">Skills & Expertise</h2>
+            <div class="skills__categories">
+                <div class="skill-category">
+                    <h3 class="skill-category__title">Technical Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Web Application Penetration Testing</span>
+                        <span class="skill-tag">API Penetration Testing</span>
+                        <span class="skill-tag">Active Directory Penetration Testing</span>
+                        <span class="skill-tag">Network Security</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="skill-category__title">Tools & Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Burp Suite</span>
+                        <span class="skill-tag">Metasploit</span>
+                        <span class="skill-tag">Nmap</span>
+                        <span class="skill-tag">Nessus</span>
+                        <span class="skill-tag">OWASP Top 10</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="skill-category__title">Programming</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section__title">Certifications & Training</h2>
+            <div class="certifications__content">
+                <div class="certifications__category">
+                    <h3 class="certifications__subtitle">Certifications</h3>
+                    <div class="cert-grid">
+                        <div class="cert-card">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Certified AppSec Practitioner (SecOps)</span>
+                        </div>
+                        <div class="cert-card">
+                            <i class="fas fa-certificate"></i>
+                            <span>CompTIA PenTest+ (TryHackMe path)</span>
+                        </div>
+                        <div class="cert-card">
+                            <i class="fas fa-hat-cowboy"></i>
+                            <span>Be a White Hat Hacker (Eduonix)</span>
+                        </div>
+                        <div class="cert-card">
+                            <i class="fas fa-globe"></i>
+                            <span>Web Fundamentals (TryHackMe)</span>
+                        </div>
+                        <div class="cert-card">
+                            <i class="fas fa-bug"></i>
+                            <span>Website Hacking Techniques (EC-Council)</span>
+                        </div>
+                        <div class="cert-card">
+                            <i class="fas fa-user-shield"></i>
+                            <span>Ethical Hacking Essentials (EC-Council)</span>
+                        </div>
+                        <div class="cert-card">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Advent of Cyber 2022 (TryHackMe)</span>
+                        </div>
+                        <div class="cert-card">
+                            <i class="fas fa-lock"></i>
+                            <span>Pre-Security (TryHackMe)</span>
+                        </div>
+                        <div class="cert-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Introduction to Cybersecurity (TryHackMe)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="certifications__category">
+                    <h3 class="certifications__subtitle">Training Courses</h3>
+                    <div class="training-list">
+                        <div class="training-item">
+                            <i class="fas fa-bug"></i>
+                            <span>Bug hunting essentials (CyberSapiens Internship)</span>
+                        </div>
+                        <div class="training-item">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <span>CEH v12 (CyberSapiens Internship)</span>
+                        </div>
+                        <div class="training-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Practical Ethical Hacking (TCM)</span>
+                        </div>
+                        <div class="training-item">
+                            <i class="fas fa-globe-americas"></i>
+                            <span>Practical Web App Security & Testing (TCM)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section__title">Education</h2>
+            <div class="education__timeline">
+                <div class="education__item">
+                    <div class="education__year">2023</div>
+                    <div class="education__content">
+                        <h3 class="education__degree">BCA (Bachelor of Computer Applications)</h3>
+                        <span class="education__institution">Sri Balaji P. G. Mahavidyalaya</span>
+                    </div>
+                </div>
+                
+                <div class="education__item">
+                    <div class="education__year">2020</div>
+                    <div class="education__content">
+                        <h3 class="education__degree">IT Level-4 Diploma (4 years)</h3>
+                        <span class="education__institution">Govt Sr. Sec. School</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section__title">Get In Touch</h2>
+            <div class="contact__content">
+                <div class="contact__info">
+                    <div class="contact__item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <span class="contact__label">Email</span>
+                            <a href="mailto:iamvjkumawat@gmail.com" class="contact__value">iamvjkumawat@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <span class="contact__label">Phone</span>
+                            <a href="tel:+918005623771" class="contact__value">+91 8005623771</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <span class="contact__label">Location</span>
+                            <span class="contact__value">Jaipur, Rajasthan, India</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact__social">
+                    <h3>Connect with me</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/vijaykumawat02/" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/Vijaykumawat02" class="social-link">
+                            <i class="fab fa-github"></i>
+                            Github
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p>&copy; 2026 Vijay Kumawat. All rights reserved.</p>
+                <p>Penetration Tester | Ethical Hacker</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
